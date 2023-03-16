@@ -14,10 +14,10 @@ steps that process the source text for effective information extraction.
 
 • Lexical simplification of clinical and medical terms
 ## MedTSS Summarization
-We provide MedTSS working on five samples of HTSS testing dataset. HTSS reported, there top-five generated summaries, that we used to compared with MedTSS(PTMs) generated summaries. Code avaliable in 'MedTSS-Summarization.ipynb' file.
+We provide MedTSS working on five samples of HTSS testing dataset. HTSS reported, there top-five generated summaries, that we used to compared with MedTSS(PTMs) generated summaries. Code avaliable in ['MedTSS-Summarization.ipynb'](https://github.com/NadiaSaeed/MedTSS/blob/main/MedTSS-Summarization.ipynb) file.
 ## MedTSS Sentence Ordering
-MedTSS ordered there generated summaries of k-conceptual groups based on cosine similarity computed between the sentences od the original text and generated summaries. Code avaliable in 'MedTSS-OrderedSummary.ipynb' file.
+MedTSS ordered there generated summaries of k-conceptual groups based on cosine similarity computed between the sentences od the original text and generated summaries. Code avaliable in ['MedTSS-OrderedSummary.ipynb'](https://github.com/NadiaSaeed/MedTSS/blob/main/MedTSS-OrderedSummary.ipynb) file.
 ## MedTSS ESM metric
-MedTSS introduced a new matric to compared the named entities similarity between the ground-truth summaries and the generated summaries using ESM. Code is avaliable in 'MedTSS-ESM.ipynb' file.
+MedTSS introduced a new matric to compared the named entities similarity between the ground-truth summaries and the generated summaries using ESM. Code is avaliable in ['MedTSS-ESM.ipynb'](https://github.com/NadiaSaeed/MedTSS/blob/main/MedTSS-ESM.ipynb) file.
 ## MedTSS Lexical simplification of clinical and medical terms
-MedTSS text simplification task code in 'MedTSS_Simplification.ipynb'.
+MedTSS text simplification task code in ['MedTSS_Simplification.ipynb'](https://github.com/NadiaSaeed/MedTSS/blob/main/MedTSS_Simplification.ipynb).
