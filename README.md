@@ -13,3 +13,8 @@ steps that process the source text for effective information extraction.
 • Sentence Ordering
 
 • Lexical simplification of clinical and medical terms
+## MedTSS Summarization
+We provide MedTSS working on five samples of HTSS testing dataset. HTSS reported, there top-five generated summaries, that we used to compared with MedTSS(PTMs) generated summaries. Code avaliable in 'MedTSS-Summarization.ipynb' file.
+MedTSS ordered there generated summaries of k-conceptual groups based on cosine similarity computed between the sentences od the original text and generated summaries. Code avaliable in 'MedTSS-Summarization.ipynb' file.
+MedTSS introduced a new matric to compared the named entities similarity between the ground-truth summaries and the generated summaries using ESM. Code is avaliable in 'MedTSS-ESM.ipynb' file.
+MedTSS text simplification task code in 'MedTSS_Simplification.ipynb'.
